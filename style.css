@@ -1,108 +1,78 @@
 body {
-    margin: 0;
-    padding: 0;
-  }
-
-  body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-  }
-
-  header {
-    background-color: #fff;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-
-  nav {
-    background-color: #fff;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .nav-links{
-	flex: 1%;
-	text-align: center;
-  }
-
-  .nav-links ul li{
- 	list-style: none;
-	display: inline-block;
-	padding: 8px 12px;
-	position: relative;
-}
-.nav-links ul li a{
-    font-family: inherit;
-   	color: #957554;
-	text-decoration: none;
-    font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
 }
 
-
-.section1 {
-   overflow: hidden;
-    color: #FFFFFF;
-    padding: 20px;
-     text-align: center;
-    background-image: url("images/hotel.png");
- 
-
-  }
-
-.button{
-    display: inline-block;
-    border-radius: 5px;
-    padding: 12px 34px;
-    font-size: 60%;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    text-decoration: none;
-    color: #fff;
-    background-color: #DFAA5B;
-    border: #DFAA5B;
-}
-.button a{
-  font-family: inherit;
-    text-decoration: none;
-color: #FFFFFF;
-}
-
-.section2{
-  margin-top: 5%;
+header, nav {
+  background-color: #333;
+  color: #fff;
   text-align: center;
 }
-.section2 p{
+
+.nav-links {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  font-family: 'Ubuntu', sans-serif;
+  color: #957554;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.section1 {
+  position: relative;
+  margin-top: 0;
+  overflow: hidden;
+  color: #FFFFFF;
+  text-align: center;
+  background-image: url("images/hotel.png");
+}
+
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 14px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: #DFAA5B;
+  border: #DFAA5B;
+}
+
+.button a {
+  font-family: inherit;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.section2 {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section2 p {
   color: #957554;
   font-family: inherit;
   font-size: 24px;
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin-top: 30px;
- }
- 
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
