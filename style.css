@@ -95,7 +95,6 @@ option[value^="28"] {
 
  
 .section1 {
-  position: fixed;
    background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -103,6 +102,7 @@ option[value^="28"] {
   color: #FFFFFF;
   text-align: center;
   background-image: url("images/hotel.png");
+  z-index: -1;
 }
 .con1{
   padding: 20%;
@@ -133,1297 +133,222 @@ option[value^="28"] {
   color: #FFFFFF;
 }
 .section2{
-  
-  margin-top: -10%;
+  margin: 5%;
+  background-color: #FFFFFF;
+  margin-top: -15%;
 }
 .sec2{
-  margin: 5%;
-  color: #ffffff;
-  background-color: #000000;
+  padding-top: 10px;
+  text-align: center;
+  
+  color: #957554;
+
+font-family: 'Ubuntu', sans-serif;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.secf2{
+   
+  
+font-family: 'Ubuntu', sans-serif;
+color: #957554;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.flex-container {
+  padding: 13%;
+  padding-top: 0px;
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+.flex-item {
+  text-align: center;
+}
+
+.flex-item img {
+  width: 60px; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+}
+
+.secR{
+  margin-top: 0%;
+ text-align: center;
+}
+
+.secR p{
+  color: #957554;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.secG {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 5%;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.secGd {
+  align-items: center;
+  padding: 130px;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.secGd p {
+  color: #FFF;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button2 {
+  border-radius: 7px;
+  padding: 12px 24px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: #DFAA5B;
+  border: #DFAA5B;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.secGd1 {
+  background-image: url(images/r1.png);
+}
+
+.secGd2 {
+  background-image: url(images/r2.png);
 }
 
 
 
+.secG1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 5%;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.secGd11 {
+  align-items: center;
+  padding: 130px;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.secGd11 p {
+  color: #FFF;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button2 {
+  max-width: 200px;
+  border-radius: 7px;
+  padding: 12px 24px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: #DFAA5B;
+  border: #DFAA5B;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.secGd11 {
+  background-image: url(images/r3.png);
+}
+
+.secGd21 {
+  background-image: url(images/r5.png);
+}
 
 
+.secTb{
+  padding: 0px;
+  margin-top: 0px;
+  text-align: center;
+background: #FFFFFF;
+}
+
+.tb{
+  margin-top: 0px;
+  padding: 0px;
+  color: #957554;
+  font-family: 'Ubuntu', sans-serif;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 
 
+.button13 {
+  
+  min-width: 290px;
+   display: inline-block;
+   border-radius: 7px;
+   padding: 12px 24px;
+   font-size: 14px;
+   background: transparent;
+   position: relative;
+   cursor: pointer;
+   text-decoration: none;
+   color: #fff;
+   background-color: #DFAA5B;
+   border: #DFAA5B;
+ }
+ 
+ .button a {
+   font-family: 'Ubuntu', sans-serif;
+   text-decoration: none;
+   color: #FFFFFF;
 
-
-
-
-
-
-
-
-
-
-
+ }
 
 
 
 
 
 footer {
-  background-color: #333;
+  background-color: #111111;
   color: #fff;
-  text-align: center;
-  padding: 10px;
+
+ 
   margin-top: 20px;
 }
-
-/* Desktop - 1 */
-
-position: relative;
-width: 1441px;
-height: 3358px;
-
-background: #FFFFFF;
-
-
-/* GqbU78bdJFM */
-
-position: absolute;
-width: 630px;
-height: 500px;
-left: 750px;
-top: 1438px;
-
-background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%), url(.jpg);
-border-radius: 10px;
-
-
-/* FqqiAvJejto */
-
-position: absolute;
-width: 630px;
-height: 500px;
-left: 60px;
-top: 1439px;
-
-background: linear-gradient(180deg, rgba(255, 255, 255, 0) 7.48%, #000000 100%), url(.jpg);
-mix-blend-mode: normal;
-border-radius: 10px;
-
-
-/* Rectangle 1 */
-
-position: absolute;
-width: 1440px;
-height: 185px;
-left: 1px;
-top: -1.5px;
-
-mix-blend-mode: normal;
-
-
-/* Rectangle 2 */
-
-position: absolute;
-width: 1127px;
-height: 184px;
-left: -151px;
-top: -1246px;
-
-background: #FFFFFF;
-
-
-/* Rectangle 16 */
-
-position: absolute;
-width: 1441px;
-height: 119px;
-left: 0px;
-top: 241px;
-
-background: #111111;
-
-
-/* download 1 */
-
-position: absolute;
-width: 151px;
-height: 101px;
-left: 648px;
-top: 34px;
-
-background: url(download.jpg);
-
-
-/* Our Hotel Rooms & Rates Facilities Contact Us */
-
-position: absolute;
-width: 639px;
-height: 28px;
-left: 365px;
-top: 188px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #957554;
-
-mix-blend-mode: normal;
-
-
-/* Standard Twin Room */
-
-position: absolute;
-width: 381px;
-height: 46px;
-left: 185px;
-top: 1740px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 46px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Club King Room */
-
-position: absolute;
-width: 296px;
-height: 46px;
-left: 227px;
-top: 2292px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 46px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* hDbCjHNdF48 */
-
-position: absolute;
-width: 1441px;
-height: 790px;
-left: 0px;
-top: 358px;
-
-background: linear-gradient(0deg, rgba(7, 7, 7, 0.22), rgba(7, 7, 7, 0.22)), url(.jpg);
-
-
-/* Rectangle 3 */
-
-position: absolute;
-width: 1319px;
-height: 171px;
-left: 61px;
-top: 989px;
-
-background: #FFFFFF;
-border-radius: 10px;
-
-
-/* Rectangle 8 */
-
-position: absolute;
-width: 1319px;
-height: 277px;
-left: 61px;
-top: 2550px;
-
-background: #FFFFFF;
-border-radius: 10px;
-
-
-/* Rectangle 6 */
-
-position: absolute;
-width: 244px;
-height: 76px;
-left: 254px;
-top: 1805px;
-
-background: #DFAA5B;
-border-radius: 10px;
-
-
-/* Frame 1 */
-
-position: absolute;
-width: 1319px;
-height: 500px;
-left: 60px;
-top: 1997px;
-
-
-
-/* w1RE0lBbREo */
-
-position: absolute;
-width: 630px;
-height: 500px;
-left: 0px;
-top: 0px;
-
-background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%), url(.jpg);
-border-radius: 10px;
-
-
-/* aRT5UCf2MYY */
-
-position: absolute;
-width: 630px;
-height: 500px;
-left: 689px;
-top: 0px;
-
-background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%), url(.jpg);
-border-radius: 10px;
-
-
-/* Check Rates */
-
-position: absolute;
-width: 136px;
-height: 28px;
-left: 310px;
-top: 1829px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Standard Room */
-
-position: absolute;
-width: 286px;
-height: 46px;
-left: 920px;
-top: 1740px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 46px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Rectangle 13 */
-
-position: absolute;
-width: 244px;
-height: 76px;
-left: 941px;
-top: 1805px;
-
-background: #DFAA5B;
-border-radius: 10px;
-
-
-/* Check Rates */
-
-position: absolute;
-width: 136px;
-height: 28px;
-left: 997px;
-top: 1829px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Group 2 */
-
-position: absolute;
-width: 244px;
-height: 76px;
-left: 253px;
-top: 2364px;
-
-
-
-/* Rectangle 7 */
-
-position: absolute;
-width: 244px;
-height: 76px;
-left: 253px;
-top: 2364px;
-
-background: #DFAA5B;
-border-radius: 10px;
-
-
-/* Check Rates */
-
-position: absolute;
-width: 136px;
-height: 28px;
-left: 309px;
-top: 2388px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Rectangle 9 */
-
-position: absolute;
-width: 418px;
-height: 76px;
-left: 512px;
-top: 2701px;
-
-background: #DFAA5B;
-border-radius: 10px;
-
-
-/* Book Now */
-
-position: absolute;
-width: 114px;
-height: 28px;
-left: 659px;
-top: 2725px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Rectangle 15 */
-
-position: absolute;
-width: 371px;
-height: 76px;
-left: 535px;
-top: 853px;
-
-background: #DFAA5B;
-border-radius: 10px;
-
-
-/* EXPLORE */
-
-position: absolute;
-width: 105px;
-height: 28px;
-left: 664px;
-top: 877px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Rectangle 4 */
-
-position: absolute;
-width: 1319px;
-height: 289px;
-left: 61px;
-top: 989px;
-
-background: #FFFFFF;
-border-radius: 10px;
-
-
-/* maki:fitness-centre-11 */
-
-position: absolute;
-width: 60px;
-height: 60px;
-left: 909px;
-top: 1130px;
-
-border-radius: 10px 10px 0px 0px;
-
-
-/* Vector */
-
-position: absolute;
-left: 4.55%;
-right: 4.55%;
-top: 27.27%;
-bottom: 27.27%;
-
-background: #DFAA5B;
-
-
-/* ic:twotone-pool */
-
-position: absolute;
-width: 60px;
-height: 60px;
-left: 473px;
-top: 1128px;
-
-border-radius: 10px 10px 0px 0px;
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 12.5%;
-bottom: 12.5%;
-
-background: #000000;
-opacity: 0.3;
-
-
-/* Vector */
-
-position: absolute;
-left: 58.33%;
-right: 20.83%;
-top: 12.5%;
-bottom: 66.67%;
-
-background: #000000;
-opacity: 0.3;
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 12.5%;
-bottom: 12.5%;
-
-background: #DFAA5B;
-
-
-/* Vector */
-
-position: absolute;
-left: 58.33%;
-right: 20.83%;
-top: 12.5%;
-bottom: 66.67%;
-
-background: #DFAA5B;
-
-
-/* dashicons:editor-kitchensink */
-
-position: absolute;
-width: 60px;
-height: 60px;
-left: 255px;
-top: 1128px;
-
-border-radius: 10px 10px 0px 0px;
-
-
-/* Vector */
-
-position: absolute;
-left: 5%;
-right: 5%;
-top: 10%;
-bottom: 10%;
-
-background: #DFAA5B;
-
-
-/* clarity:wifi-solid */
-
-position: absolute;
-width: 60px;
-height: 60px;
-left: 691px;
-top: 1128px;
-
-border-radius: 10px 10px 0px 0px;
-
-
-/* Vector */
-
-position: absolute;
-left: 41.67%;
-right: 41.67%;
-top: 73.72%;
-bottom: 9.61%;
-
-background: #DFAA5B;
-
-
-/* Vector */
-
-position: absolute;
-left: 6.85%;
-right: 7.09%;
-top: 14.26%;
-bottom: 65.76%;
-
-background: #DFAA5B;
-
-
-/* Vector */
-
-position: absolute;
-left: 17.82%;
-right: 18.07%;
-top: 34.3%;
-bottom: 48.95%;
-
-background: #DFAA5B;
-
-
-/* Vector */
-
-position: absolute;
-left: 28.77%;
-right: 28.94%;
-top: 54.37%;
-bottom: 32.2%;
-
-background: #DFAA5B;
-
-
-/* bx:bx-taxi */
-
-position: absolute;
-width: 60px;
-height: 60px;
-left: 1127px;
-top: 1128px;
-
-border-radius: 10px 10px 0px 0px;
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 8.33%;
-bottom: 8.33%;
-
-background: #DFAA5B;
-
-
-/* Vector */
-
-position: absolute;
-left: 20.83%;
-right: 66.67%;
-top: 54.17%;
-bottom: 33.33%;
-
-background: #DFAA5B;
-
-
-/* Vector */
-
-position: absolute;
-left: 66.67%;
-right: 20.83%;
-top: 54.17%;
-bottom: 33.33%;
-
-background: #DFAA5B;
-
-
-/* Facilities */
-
-position: absolute;
-width: 184px;
-height: 52px;
-left: 628px;
-top: 1031px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 45px;
-line-height: 52px;
-/* identical to box height */
-
-color: #957554;
-
-mix-blend-mode: normal;
-
-
-/* Rooms & Rates */
-
-position: absolute;
-width: 312px;
-height: 52px;
-left: 564px;
-top: 1334px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 45px;
-line-height: 52px;
-/* identical to box height */
-
-color: #957554;
-
-mix-blend-mode: normal;
-
-
-/* WELCOME TO BON HOTEL */
-
-position: absolute;
-width: 987px;
-height: 106px;
-left: 244px;
-top: 681px;
-
-font-family: 'Segoe UI';
-font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 106px;
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Kitchen */
-
-position: absolute;
-width: 83px;
-height: 28px;
-left: 244px;
-top: 1204px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #957554;
-
-mix-blend-mode: normal;
-
-
-/* Pool */
-
-position: absolute;
-width: 49px;
-height: 28px;
-left: 478px;
-top: 1204px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #957554;
-
-mix-blend-mode: normal;
-
-
-/* Wifi */
-
-position: absolute;
-width: 44px;
-height: 28px;
-left: 698px;
-top: 1204px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #957554;
-
-mix-blend-mode: normal;
-
-
-/* Gym */
-
-position: absolute;
-width: 49px;
-height: 28px;
-left: 914px;
-top: 1204px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #957554;
-
-mix-blend-mode: normal;
-
-
-/* Taxi */
-
-position: absolute;
-width: 44px;
-height: 28px;
-left: 1135px;
-top: 1204px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #957554;
-
-mix-blend-mode: normal;
-
-
-/* Get a room already! */
-
-position: absolute;
-width: 411px;
-height: 52px;
-left: 512px;
-top: 2611px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 45px;
-line-height: 52px;
-/* identical to box height */
-
-color: #957554;
-
-mix-blend-mode: normal;
-
-
-/* Rectangle 10 */
-
-position: absolute;
-width: 1440px;
-height: 469px;
-left: 1px;
-top: 2889px;
-
-background: #111111;
-
-
-/* image 1 */
-
-position: absolute;
-width: 154px;
-height: 126px;
-left: 56px;
-top: 2950px;
-
-background: url(image.png);
-
-
-/* Bon Hotels Head Office +27 434 344 432 info@bonhotels.com */
-
-position: absolute;
-width: 263px;
-height: 83px;
-left: 60px;
-top: 3144px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Our Hotels Our Conferencing Our Company Hotel Design Careers */
-
-position: absolute;
-width: 194px;
-height: 249px;
-left: 555px;
-top: 2950px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Subcribe for Offers */
-
-position: absolute;
-width: 268px;
-height: 34px;
-left: 1000px;
-top: 2950px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 34px;
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Rectangle 11 */
-
-position: absolute;
-width: 371px;
-height: 75px;
-left: 1000px;
-top: 3004px;
-
-background: #FFFFFF;
-border-radius: 10px;
-
-
-/* Rectangle 12 */
-
-position: absolute;
-width: 371px;
-height: 75px;
-left: 1000px;
-top: 3103px;
-
-background: #DFAA5B;
-border-radius: 10px;
-
-
-/* Subcribe Now */
-
-position: absolute;
-width: 159px;
-height: 28px;
-left: 1102px;
-top: 3126px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Email Address */
-
-position: absolute;
-width: 150px;
-height: 28px;
-left: 1027px;
-top: 3027px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: rgba(0, 0, 0, 0.5);
-
-mix-blend-mode: normal;
-
-
-/* Rectangle 17 */
-
-position: absolute;
-width: 192px;
-height: 60px;
-left: 318px;
-top: 268px;
-
-background: #FFFFFF;
-border-radius: 10px;
-
-
-/* Select a City */
-
-position: absolute;
-width: 142px;
-height: 23px;
-left: 335px;
-top: 287px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 23px;
-/* identical to box height */
-
-color: rgba(0, 0, 0, 0.5);
-
-mix-blend-mode: normal;
-
-
-/* Rectangle 22 */
-
-position: absolute;
-width: 192px;
-height: 60px;
-left: 523px;
-top: 268px;
-
-background: #FFFFFF;
-border-radius: 10px;
-
-
-/* Rectangle 23 */
-
-position: absolute;
-width: 192px;
-height: 60px;
-left: 728px;
-top: 268px;
-
-background: #FFFFFF;
-border-radius: 10px;
-
-
-/* Rectangle 24 */
-
-position: absolute;
-width: 202px;
-height: 60px;
-left: 936px;
-top: 268px;
-
-background: #DFAA5B;
-border-radius: 10px;
-
-
-/* Check In */
-
-position: absolute;
-width: 142px;
-height: 23px;
-left: 540px;
-top: 287px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 23px;
-/* identical to box height */
-
-color: rgba(0, 0, 0, 0.5);
-
-mix-blend-mode: normal;
-
-
-/* Check Out */
-
-position: absolute;
-width: 142px;
-height: 23px;
-left: 745px;
-top: 286px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 23px;
-/* identical to box height */
-
-color: rgba(0, 0, 0, 0.5);
-
-mix-blend-mode: normal;
-
-
-/* Check Availability */
-
-position: absolute;
-width: 157px;
-height: 23px;
-left: 963px;
-top: 286px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 23px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Deluxe Room */
-
-position: absolute;
-width: 248px;
-height: 46px;
-left: 952px;
-top: 2284px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 46px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* StandardViewRoom */
-
-position: absolute;
-width: 388px;
-height: 46px;
-left: 181px;
-top: 2284px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 46px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Rectangle 5 */
-
-position: absolute;
-width: 244px;
-height: 76px;
-left: 962px;
-top: 2364px;
-
-background: #DFAA5B;
-border-radius: 10px;
-
-
-/* Check Rates */
-
-position: absolute;
-width: 136px;
-height: 28px;
-left: 1018px;
-top: 2388px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* Good people. Good thinking. Good feeling. */
-
-position: absolute;
-width: 474px;
-height: 28px;
-left: 474px;
-top: 784px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-
-
-/* bi:search */
-
-position: absolute;
-width: 16px;
-height: 16px;
-left: 1053px;
-top: 190px;
-
-
-
-/* Group */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 63.44%;
-right: 0%;
-top: 63.43%;
-bottom: 0%;
-
-background: #DFAA5B;
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 18.75%;
-top: 0%;
-bottom: 18.75%;
-
-background: #DFAA5B;
-
-
-/* ls:dropdown */
-
-position: absolute;
-width: 241px;
-height: 233px;
-left: 269px;
-top: -75px;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 32.89%;
-right: 65.93%;
-top: 8.65%;
-bottom: 90.97%;
-
-background: #DFAA5B;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-
-/* dashicons:calendar-alt */
-
-position: absolute;
-width: 20px;
-height: 20px;
-left: 682px;
-top: 287px;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 10%;
-right: 10%;
-top: 7.5%;
-bottom: 5%;
-
-background: #DFAA5B;
-
-
-/* dashicons:calendar-alt */
-
-position: absolute;
-width: 20px;
-height: 20px;
-left: 890px;
-top: 287px;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 10%;
-right: 10%;
-top: 7.5%;
-bottom: 5%;
-
-background: #DFAA5B;
+ 
