@@ -92,34 +92,50 @@ option[value^="28"] {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
 
+  .row select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .button1 {
+    width: 92%;
+  }
+}
  
 .section1 {
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  margin-top: 0px; 
+   
+  margin-top: 0;
   color: #FFFFFF;
   text-align: center;
   background-image: url("images/hotel.png");
   z-index: -1;
 }
-.con1{
-  padding: 20%;
- }
-  
- .con1 p{
-  font-weight: bolder;
- }
+
+.con1 {
+  padding: 15%; /* Adjust padding for better spacing on smaller screens */
+}
+
+.con1 p {
+  color: #FFF;
+  font-family: 'Segoe UI', sans-serif; /* Use Segoe UI as the font family */
+  font-size: 4vw; /* Adjust font size relative to the viewport width for responsiveness */
+  font-weight: 700;
+  line-height: 1.2; /* Adjust line height for better readability */
+}
 
 .button {
- min-width: 200px;
+  min-width: 150px; /* Adjust minimum width for responsiveness */
   display: inline-block;
   border-radius: 7px;
   padding: 12px 24px;
-  font-size: 14px;
-  background: transparent;
-  position: relative;
+  font-size: 1.5vw; /* Adjust font size relative to the viewport width */
   cursor: pointer;
   text-decoration: none;
   color: #fff;
@@ -128,63 +144,88 @@ option[value^="28"] {
 }
 
 .button a {
-  font-family: 'Ubuntu', sans-serif;
-  text-decoration: none;
-  color: #FFFFFF;
-}
-.section2{
-  margin: 5%;
-  background-color: #FFFFFF;
-  margin-top: -15%;
-}
-.sec2{
-  padding-top: 10px;
-  text-align: center;
-  
-  color: #957554;
-
-font-family: 'Ubuntu', sans-serif;
-font-size: 45px;
+  color: #FFF;
+ 
+font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-}
-.secf2{
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
    
-  
-font-family: 'Ubuntu', sans-serif;
-color: #957554;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
 }
 
+/* Media Query for small screens */
+@media only screen and (max-width: 600px) {
+  .row select,
+  .button {
+    width: 100%; /* Adjust styles for small screens */
+  }
 
+  .container {
+    padding: 10px; /* Adjust padding for small screens */
+  }
+
+  .section1 {
+    background-size: contain; /* Adjust background size for small screens */
+  }
+}
+
+ 
+.section2 {
+  margin: auto;
+   max-width: 80vw;
+  background-color: #FFFFFF;
+  margin-top: -6%;
+  text-align: center; /* Center-align the section2 content */
+  padding-top: 5px; /* Add padding for better spacing */
+}
+
+.sec2 {
+  color: #957554;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem; /* Adjust font size for better responsiveness */
+  font-weight: 500;
+  line-height: normal;
+}
+
+.secf2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #957554;
+  font-size: 1.5rem; /* Adjust font size for better responsiveness */
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Flex-container styles */
 .flex-container {
-  padding: 13%;
-  padding-top: 0px;
+  padding: 5%; /* Adjust padding for better responsiveness */
   display: flex;
-  justify-content: space-between;
-   
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  justify-content: space-around; /* Adjust to space-around for better alignment */
 }
 
 .flex-item {
   text-align: center;
+  flex: 1; /* Allow items to take equal width */
+  max-width: 200px; /* Limit the maximum width of each flex-item */
+  margin: 10px; /* Add margin for spacing between items */
 }
 
 .flex-item img {
-  width: 60px; /* Adjust the width as needed */
-  height: 60px; /* Adjust the height as needed */
-  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  width: 100%; /* Make images responsive within flex-item */
+  max-width: 60px; /* Set a maximum width for the images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
 }
 
 .secR{
-  margin-top: 0%;
+  margin: auto;
  text-align: center;
 }
 
 .secR p{
+  padding: 0px;
   color: #957554;
   font-family: 'Ubuntu', sans-serif;
   font-size: 45px;
@@ -197,8 +238,9 @@ line-height: normal;
 .secG {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 5%;
+  gap: 65px;
+  padding-right: 5%;
+   padding-left: 5%;
   align-items: center;
   text-align: center;
   color: #FFFFFF;
@@ -206,7 +248,8 @@ line-height: normal;
 
 .secGd {
   align-items: center;
-  padding: 130px;
+  padding-top: 50%;
+  padding-bottom: 10%;
   text-align: center;
   background-position: center;
   background-size: cover;
@@ -249,8 +292,10 @@ line-height: normal;
 .secG1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 5%;
+  gap: 65px;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
   align-items: center;
   text-align: center;
   color: #FFFFFF;
@@ -258,7 +303,8 @@ line-height: normal;
 
 .secGd11 {
   align-items: center;
-  padding: 130px;
+  padding-top: 50%;
+  padding-bottom: 10%;
   text-align: center;
   background-position: center;
   background-size: cover;
@@ -298,57 +344,158 @@ line-height: normal;
 }
 
 
-.secTb{
-  padding: 0px;
-  margin-top: 0px;
+.secTb {
+  padding: 5%; /* Adjust padding for better spacing */
   text-align: center;
-background: #FFFFFF;
+  background: #FFFFFF;
 }
 
-.tb{
+.tb {
   margin-top: 0px;
   padding: 0px;
   color: #957554;
   font-family: 'Ubuntu', sans-serif;
-font-size: 45px;
+  font-size: 2rem; /* Adjust font size for better responsiveness */
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button13 {
+  min-width: 250px; /* Adjust the minimum width for responsiveness */
+  display: inline-block;
+  border-radius: 7px;
+  padding: 12px 24px;
+  font-size: 1rem; /* Adjust font size for better responsiveness */
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: #DFAA5B;
+  border: #DFAA5B;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Adjusting button styles for better responsiveness */
+.button13 a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+ 
+footer {
+  margin: 0px;
+  padding: 30px;
+  padding-bottom: 12%;
+  background-color: #111111;
+  color: #FFF; 
+   gap: 10%;
+  display: flex;
+   
+}
+ 
+.div1{
+  color: #FFF; 
+    }
+
+.div1 p{
+color: #FFF;
+font-family: 'Ubuntu', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+ 
+.div2{
+  
+color: #FFF;
+   
+}
+.div2 ul li{
+  list-style: none;
+  text-decoration: none;
+ }
+.div2 ul li a{
+  color: #FFF;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;   
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.div3{
+   color: #FFF;
+ 
+  }
+.div3 p{
+  color: #FFF;
+  font-family: 'Ubuntu', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.div3 a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Ubuntu', sans-serif;
+font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
 
-
-.button13 {
+.input{
   
-  min-width: 290px;
-   display: inline-block;
-   border-radius: 7px;
-   padding: 12px 24px;
-   font-size: 14px;
-   background: transparent;
-   position: relative;
-   cursor: pointer;
-   text-decoration: none;
-   color: #fff;
-   background-color: #DFAA5B;
-   border: #DFAA5B;
- }
- 
- .button a {
-   font-family: 'Ubuntu', sans-serif;
-   text-decoration: none;
-   color: #FFFFFF;
-
- }
-
-
-
-
-
-footer {
-  background-color: #111111;
-  color: #fff;
-
- 
-  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.50);
+  font-family: 'Ubuntu', sans-serif;
+font-size: 17px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+border: #ffffff;
+border-radius: 7px;
+padding: 12px 14px;
+min-width: 200px;
+}
+.btn{
+  text-align: center;
+ min-width: 200px;
+display: inline-block;
+border-radius: 7px;
+padding: 12px 24px;
+font-size: 1rem; /* Adjust font size for better responsiveness */
+cursor: pointer;
+text-decoration: none;
+color: #fff;
+background-color: #DFAA5B;
+border: #DFAA5B;
+font-family: 'Ubuntu', sans-serif;
 }
  
+@media only screen and (max-width: 600px) {
+  footer {
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  }
+
+  .div1,
+  .div2,
+  .div3 {
+    width: 100%; /* Full width on smaller screens */
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  .div2 ul li {
+    margin-bottom: 10px; /* Add some space between list items on smaller screens */
+  }
+
+  .input {
+    width: 100%; /* Full width on smaller screens */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    margin-bottom: 10px; /* Add some space between input and button on smaller screens */
+  }
+
+  .btn {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
