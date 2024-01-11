@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 header {
   padding-top: 20px;
@@ -103,7 +103,7 @@ option[value^="28"] {
   }
 
   .button1 {
-    width: 92%;
+    width: 91%;
   }
 }
  
@@ -218,7 +218,29 @@ line-height: normal;
   height: auto; /* Maintain aspect ratio */
   border-radius: 10px;
 }
+ 
+@media only screen and (max-width: 600px) {
+  .section2 {
+    
+    padding-top: 20px; /* Adjust padding for better spacing on smaller screens */
+  }
 
+  .sec2 {
+    font-size: 2rem; /* Adjust font size for better responsiveness */
+  }
+
+  .secf2 {
+    font-size: 1.2rem; /* Adjust font size for better responsiveness */
+  }
+
+  .flex-container {
+    padding: 2%; /* Adjust padding for better responsiveness on smaller screens */
+  }
+
+  .flex-item {
+    max-width: 100%; /* Allow items to take full width on smaller screens */
+  }
+}
 .secR{
   margin: auto;
  text-align: center;
@@ -382,18 +404,19 @@ line-height: normal;
 
  
 footer {
-  margin: 0px;
+  margin: 0;
   padding: 30px;
-  padding-bottom: 12%;
+   
   background-color: #111111;
   color: #FFF; 
-   gap: 10%;
+   gap: 15%;
   display: flex;
    
 }
  
 .div1{
   color: #FFF; 
+  
     }
 
 .div1 p{
@@ -411,10 +434,12 @@ color: #FFF;
    
 }
 .div2 ul li{
+  margin-bottom: 10px;
   list-style: none;
   text-decoration: none;
  }
 .div2 ul li a{
+  
   color: #FFF;
   font-family: 'Ubuntu', sans-serif;
   text-decoration: none;   
@@ -428,6 +453,7 @@ color: #FFF;
  
   }
 .div3 p{
+  
   color: #FFF;
   font-family: 'Ubuntu', sans-serif;
 font-size: 30px;
@@ -436,7 +462,7 @@ font-weight: 500;
 line-height: normal;
 }
 .div3 a{
-  text-decoration: none;
+   text-decoration: none;
   color: #FFF;
   font-family: 'Ubuntu', sans-serif;
 font-size: 20px;
@@ -455,12 +481,15 @@ font-weight: 300;
 line-height: normal;
 border: #ffffff;
 border-radius: 7px;
-padding: 12px 14px;
-min-width: 200px;
+padding: 12px 23px;
+min-width: 100%;
+ margin-bottom: 10px;
 }
+
 .btn{
+  min-width:  100%;
   text-align: center;
- min-width: 200px;
+  
 display: inline-block;
 border-radius: 7px;
 padding: 12px 24px;
@@ -472,8 +501,8 @@ background-color: #DFAA5B;
 border: #DFAA5B;
 font-family: 'Ubuntu', sans-serif;
 }
- 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 650px) {
   footer {
     flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
   }
@@ -490,12 +519,12 @@ font-family: 'Ubuntu', sans-serif;
   }
 
   .input {
-    width: 100%; /* Full width on smaller screens */
+    min-width: 59%; /* Full width on smaller screens */
     box-sizing: border-box; /* Include padding and border in the element's total width */
     margin-bottom: 10px; /* Add some space between input and button on smaller screens */
   }
 
   .btn {
-    width: 100%; /* Full width on smaller screens */
+    min-width: 50%; /* Full width on smaller screens */
   }
-}
+} 
